@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/uber-move-text?styles=70998,70996,70997,70995');
+@import "tailwindcss";
+
+header {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 64px;
+  background-color: black;
+  color: white;
+  padding: 12px 64px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* header a {
+  color: white;
+} */
+
+header li {
+  padding: 8px 12px;
+  transition: 300ms ease-in-out;
+  color: white;
+}
+
+header li:hover {
+  background-color: rgba(255, 255, 255, 0.17);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+nav {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#brand {
+  font-size: 24px;
+  font-weight: 400 !important;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+#change-language-btn {
+  display: flex;
+  border: none;
+  gap: 8px;
+  color: white;
+  background-color: transparent;
+  align-items: center;
+  font-weight: 500;
+}
+
+#change-language-btn div {
+  margin-top: 2px;
+}
+
+/* #register-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: 500;
+  color: #000000;
+} */
+
+/* #hero-section {
+  height: 648px;
+  width: 100%;
+  z-index: 1;
+  border: 1px solid;
+} */
+
+/* #hero-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+}
+
+#hero-subcontainer-one {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: column;
+}
+
+#hero-subcontainer-two {
+  width: 70%;
+  height: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+} */

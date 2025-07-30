@@ -30,4 +30,3 @@ const Card = ({ name }) => {
 ```jsx
 Import the Card component in your LandingPage.jsx or wherever you use it
 <Card name="Your Name" /> // hardcoding values are fine for right now
-```
